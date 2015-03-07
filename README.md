@@ -22,6 +22,12 @@ NOTE: If you don't know what a LAMP stack is, it's best to read up on that first
 4. Add viewers with the "+" button in the top right of the "Viewers" panel. Each viewer gets a name and a list of Calendars that they should have read access to. Modify their access through the checkboxes that appear under their name.
 5. Note that events may take up to 48 hours to process in Google Calendar. This is because they aggressively cache subscribed calendars.
 
+## FAQs
+- Q: But isn't this a public copy of my calendar? Can't anyone access it?
+	- A: Yes. In theory, anyone can access the public link that you create, though it's extremely unlikely. This utility also allows you to revoke access to certain people without destroying your whole calendar.
+- Q: Why won't Google Calendar update?
+	- A: Google Calendar aggressively caches subscribed calendars and there's a 24-48 hour lag window. It's supposed to be closer to 8 hours, but I've had worse luck. I realize this isn't ideal, but there's nothing I can personally do about this. [Read Google's answer here.](https://productforums.google.com/forum/#!topic/calendar/ixQnzHmWDSk%5B1-25%5D)
+
 ## Known Issues / To-Dos
 - It would be great to have a color picker when adding a new calendar. Or a service that attempts to recognize the color that's already been set for the calendar.
 - Timezone support is seriously lacking. For right now, known timezones exist in a static file called `timezones.txt` that is placed at the top of every merge output. A better implementation would aggregate timezones from calendars being merged.
