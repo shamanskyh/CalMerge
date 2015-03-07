@@ -1,0 +1,67 @@
+/* CSS Document */
+
+h1 {
+	padding-left: 40px;
+}
+
+.calendar-color-swatch {
+	position: relative;
+	height: 18px;
+	width: 18px;
+	border-radius: 13px;
+	padding-right: 10px;
+}
+
+.calendar-title {
+	padding-left: 10px;
+}
+
+.form-control[readonly] {
+    cursor: default;
+}
+
+#new-cal-color {
+	width: 70px;
+	margin-right: 10px;
+}
+
+#new-cal-name {
+	width: 200px;
+}
+
+#new-cal-address {
+	width: 80%;
+}
+
+.calendar-checkboxes {
+	margin-top: 10px;
+}
+
+#new-viewer-name {
+	width: 80%;
+	margin-right: 20px;
+}
+
+.edit-cal-button {
+	margin-right: 10px;
+}
+
+.edit-viewer-button {
+	margin-right: 10px;
+}
+
+/* Loading Icon */
+.glyphicon-refresh-animate {
+    -animation: spin 1s infinite linear;
+    -webkit-animation: spin2 1s infinite linear;
+}
+
+@-webkit-keyframes spin2 {
+    from { -webkit-transform: rotate(0deg);}
+    to { -webkit-transform: rotate(360deg);}
+}
+
+@keyframes spin {
+    from { transform: scale(1) rotate(0deg);}
+    to { transform: scale(1) rotate(360deg);}
+}
